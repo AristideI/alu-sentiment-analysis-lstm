@@ -9,8 +9,8 @@ from training.b2_preprocessing_function import CustomPreprocess
 app = FastAPI()
 
 # Load model and tokenizer
-model_path = "sentiment0.868.h5"
-tokenizer_path = "tokenizer.pkl"
+model_path = "models/model.h5"
+tokenizer_path = "tokeniser/tokenizer.pkl"
 
 sentiment_model = load_model(model_path)
 
